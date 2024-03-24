@@ -180,7 +180,7 @@ MonsterNames::
 	db "CHARMELEON"
 	db "WARTORTLE@"
 	db "CHARIZARD@"
-	db "RESHIRAM@@" ; TODO_BACKPORT
+	db "KARTANA@@@" ; TODO_BACKPORT
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."

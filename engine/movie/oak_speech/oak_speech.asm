@@ -73,7 +73,7 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a, RESHIRAM ; TODO_INTRO
+	ld a, KARTANA ; TODO_BACKPORT
 	ld [wd0b5], a
 	ld [wcf91], a
 	call GetMonHeader

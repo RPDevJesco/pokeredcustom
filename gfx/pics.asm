@@ -309,8 +309,8 @@ WartortlePicFront::    INCBIN "gfx/pokemon/front/wartortle.pic"
 WartortlePicBack::     INCBIN "gfx/pokemon/back/wartortleb.pic"
 CharizardPicFront::    INCBIN "gfx/pokemon/front/charizard.pic"
 CharizardPicBack::     INCBIN "gfx/pokemon/back/charizardb.pic"
-ReshiramPicFront::       INCBIN "gfx/pokemon/front/reshiram.pic" ; TODO_BACKPORT
-ReshiramPicBack::        INCBIN "gfx/pokemon/back/reshiramb.pic" ; TODO_BACKPORT
+KartanaPicFront::       INCBIN "gfx/pokemon/front/kartana.pic"           ; TODO_BACKPORT
+KartanaPicBack::        INCBIN "gfx/pokemon/back/kartanab.pic"           ; TODO_BACKPORT
 FossilAerodactylPic::  INCBIN "gfx/pokemon/front/fossilaerodactyl.pic"
 GhostPic::             INCBIN "gfx/battle/ghost.pic"
 OddishPicFront::       INCBIN "gfx/pokemon/front/oddish.pic"

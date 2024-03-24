@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/reshiram.pic", 0, 1 ; sprite dimensions
 	dw ReshiramPicFront, ReshiramPicBack
 
-	db THUNDERPUNCH, DRAGON_RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db FIRE_PUNCH, DRAGON_RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

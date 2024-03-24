@@ -4,22 +4,22 @@
 	;  hp   atk  def  speed  special
 
 	db STEEL, DRAGON ; type
-	db 5 ; catch rate
-	db 64 ; base exp
+	db 3 ; catch rate
+	db 340 ; base exp
 
 	INCBIN "gfx/pokemon/front/dialga.pic", 0, 1 ; sprite dimensions
 	dw DialgaPicFront, DialgaPicBack
 
-	db THUNDERPUNCH, DRAGON_RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db STRING_SHOT, DRAGON_RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
-	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    HYPER_BEAM,   PAY_DAY,      SUBMISSION,   \
-	     RAGE,         DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     PSYCHIC_M,    TELEPORT,     DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     METRONOME,    SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   CUT,          FLY,          \
-	     STRENGTH                                                              \
-	; end
+    ; tm/hm learnset
+    tmhm MEGA_PUNCH,  TOXIC,        ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+        PAY_DAY,      SUBMISSION,   DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
+        EARTHQUAKE,   DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+        BIDE,         METRONOME,    FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
+        REST,         THUNDER_WAVE, ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+        CUT,          STRENGTH                                                \
+    ; end
 
 	db 0 ; padding

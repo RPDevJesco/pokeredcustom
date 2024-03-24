@@ -10,8 +10,8 @@ DEF TRUE  EQU 1
 
 ; wOptions
 DEF TEXT_DELAY_FAST   EQU %010 ; 1 --Now instant text
-DEF TEXT_DELAY_MEDIUM EQU %101 ; 3
-DEF TEXT_DELAY_SLOW   EQU %000 ; 5
+DEF TEXT_DELAY_MEDIUM EQU %010 ; 3 --Now instant text
+DEF TEXT_DELAY_SLOW   EQU %010 ; 5 --Now instant text
 
 	const_def 6
 	const BIT_BATTLE_SHIFT     ; 6

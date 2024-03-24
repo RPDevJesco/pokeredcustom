@@ -152,5 +152,5 @@ MonsterPalettes:
 	db PAL_BROWNMON  ; DRAGONITE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_MEWMON    ; MEW
-	db PAL_GREYMON   ; TODO_BACKPORT
+	db PAL_GREENMON    ; TODO_BACKPORT
 	assert_table_length NUM_POKEMON + 1

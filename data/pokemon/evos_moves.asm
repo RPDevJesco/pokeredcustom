@@ -190,7 +190,7 @@ EvosMovesPointerTable:
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
-	dw ReshiramEvosMoves ; TODO_BACKPORT
+	dw KartanaEvosMoves ; TODO_BACKPORT
 	dw FossilKabutopsEvosMoves
 	dw FossilAerodactylEvosMoves
 	dw MonGhostEvosMoves
@@ -2046,19 +2046,25 @@ CharizardEvosMoves:
 	db 55, FIRE_SPIN
 	db 0
 
-ReshiramEvosMoves: ; TODO_BACKPORT
-	; Evolutions
-		db 0
-	; Learnset
-		db 8, FOCUS_ENERGY
-		db 15, ROCK_THROW
-		db 22, FLAMETHROWER
-		db 29, DRAGON_RAGE
-		db 36, SLASH
-		db 43, PSYCHIC_M
-		db 50, FIRE_PUNCH
-		db 54, BODY_SLAM
-		db 0
+KartanaEvosMoves: ; TODO_BACKPORT
+; Evolutions
+	db 0
+; Learnset
+	db 6,  MIRROR_MOVE
+	db 8,  PAY_DAY
+	db 13, RAZOR_LEAF
+	db 19, RECOVER
+	db 23, SKY_ATTACK
+	db 29, FOCUS_ENERGY
+	db 31, SLASH
+	db 37, SWORDS_DANCE
+	db 43, RAZOR_LEAF
+	db 47, TWINEEDLE
+	db 53, COUNTER
+	DB 59, FLY
+	DB 67, PSYCHIC_M
+	DB 73, GUILLOTINE
+	db 0
 
 FossilKabutopsEvosMoves:
 ; Evolutions

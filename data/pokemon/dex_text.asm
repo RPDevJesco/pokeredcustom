@@ -1508,12 +1508,8 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
-_ReshiramDexEntry:: ; TODO_BACKPORT
-	text "Zekrom can"
-	next "generate"
-	next "many bolts of"
-
-	page "lightning"
-	next "to blast its"
-	next "surroundings."
+_KartanaDexEntry:: ; TODO_BACKPORT
+	text "Came from"
+	next "another"
+	next "world"
 	dex

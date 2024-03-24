@@ -180,7 +180,7 @@ PokedexEntryPointers:
 	dw CharmeleonDexEntry
 	dw WartortleDexEntry
 	dw CharizardDexEntry
-	dw ReshiramDexEntry ; TODO_BACKPORT
+	dw KartanaDexEntry ; TODO_BACKPORT
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -1254,11 +1254,11 @@ VictreebelDexEntry:
 	text_far _VictreebelDexEntry
 	text_end
 
-ReshiramDexEntry: ; TODO_BACKPORT
+KartanaDexEntry: ; TODO_BACKPORT KARTANA
 	db "Legendary@"
 	db 14,09
 	dw 776
-	text_far _ReshiramDexEntry
+	text_far _KartanaDexEntry
 	text_end
 
 MissingNoDexEntry:

@@ -151,5 +151,5 @@ MonPartyData:
 	nybble ICON_SNAKE     ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_MON       ; Mew
-	nybble ICON_SNAKE     ; Kyogre ; TODO_BACKPORT
+	nybble ICON_MON       ; TODO_BACKPORT
 	end_nybble_array NUM_POKEMON

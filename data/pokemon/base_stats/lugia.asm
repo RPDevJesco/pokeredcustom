@@ -3,7 +3,7 @@
 	db 106, 90,  130,  110,    154
 	;  hp   atk  def  speed  special
 
-	db PSYCHIC, FLYING ; type
+	db PSYCHIC_TYPE, FLYING ; type
 	db 3 ; catch rate
 	db 220 ; base exp
 

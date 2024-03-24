@@ -121,10 +121,10 @@ DisplayTitleScreen:
 	call EnableLCD
 
 IF DEF(_RED)
-	ld a, RESHIRAM ; which Pokemon to show first on the title screen
+	ld a, PIKACHU ; which Pokemon to show first on the title screen ; TODO_BACKPORT
 ENDC
 IF DEF(_BLUE)
-	ld a, RESHIRAM ; which Pokemon to show first on the title screen
+	ld a, KARTANA ; which Pokemon to show first on the title screen ; TODO_BACKPORT
 ENDC
 	ld [wTitleMonSpecies], a
 	call LoadTitleMonSprite

@@ -90,29 +90,29 @@
     db BUG,          DARK,         SUPER_EFFECTIVE
     db FIGHTING,     DARK,         SUPER_EFFECTIVE
     db PSYCHIC_TYPE, DARK,         NO_EFFECT
-    db STEEL,     ROCK,          SUPER_EFFECTIVE
-    db STEEL,     ICE,           SUPER_EFFECTIVE
-    db STEEL,     FAIRY,         SUPER_EFFECTIVE
-    db STEEL,     STEEL,         NOT_VERY_EFFECTIVE
-    db STEEL,     FIRE,          NOT_VERY_EFFECTIVE
-    db STEEL,     WATER,         NOT_VERY_EFFECTIVE
-    db STEEL,     ELECTRIC,      NOT_VERY_EFFECTIVE
-    db POISON,    STEEL,         NO_EFFECT
-    db NORMAL,    STEEL,         NOT_VERY_EFFECTIVE
-    db GRASS,     STEEL,         NOT_VERY_EFFECTIVE
-    db ICE,       STEEL,         NOT_VERY_EFFECTIVE
-    db FIGHTING,  STEEL,         SUPER_EFFECTIVE
-    db GROUND,    STEEL,         SUPER_EFFECTIVE
-    db FLYING,    STEEL,         NOT_VERY_EFFECTIVE
-    db PSYCHIC_TYPE,   STEEL,    NOT_VERY_EFFECTIVE
-    db BUG,       STEEL,         NOT_VERY_EFFECTIVE
-    db ROCK,      STEEL,         NOT_VERY_EFFECTIVE
-    db GHOST,     STEEL,         NOT_VERY_EFFECTIVE
-    db DRAGON,    STEEL,         NOT_VERY_EFFECTIVE
-    db DARK,      STEEL,         NOT_VERY_EFFECTIVE
-    db STEEL,     GHOST,         NOT_VERY_EFFECTIVE
-    db STEEL,     DRAGON,        NOT_VERY_EFFECTIVE
-    db STEEL,     DARK,          NOT_VERY_EFFECTIVE
+    db STEEL,        ROCK,         SUPER_EFFECTIVE
+    db STEEL,        ICE,          SUPER_EFFECTIVE
+    db STEEL,        FAIRY,        SUPER_EFFECTIVE
+    db STEEL,        STEEL,        NOT_VERY_EFFECTIVE
+    db STEEL,        FIRE,         NOT_VERY_EFFECTIVE
+    db STEEL,        WATER,        NOT_VERY_EFFECTIVE
+    db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE
+    db POISON,       STEEL,        NO_EFFECT
+    db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE
+    db GRASS,        STEEL,        NOT_VERY_EFFECTIVE
+    db ICE,          STEEL,        NOT_VERY_EFFECTIVE
+    db FIGHTING,     STEEL,        SUPER_EFFECTIVE
+    db GROUND,       STEEL,        SUPER_EFFECTIVE
+    db FLYING,       STEEL,        NOT_VERY_EFFECTIVE
+    db PSYCHIC_TYPE, STEEL,        NOT_VERY_EFFECTIVE
+    db BUG,          STEEL,        NOT_VERY_EFFECTIVE
+    db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
+    db GHOST,        STEEL,        NOT_VERY_EFFECTIVE
+    db DRAGON,       STEEL,        NOT_VERY_EFFECTIVE
+    db DARK,         STEEL,        NOT_VERY_EFFECTIVE
+    db STEEL,        GHOST,        NOT_VERY_EFFECTIVE
+    db STEEL,        DRAGON,       NOT_VERY_EFFECTIVE
+    db STEEL,        DARK,         NOT_VERY_EFFECTIVE
     db FAIRY,        FIGHTING,     SUPER_EFFECTIVE
     db FAIRY,        DRAGON,       SUPER_EFFECTIVE
     db FAIRY,        DARK,         SUPER_EFFECTIVE

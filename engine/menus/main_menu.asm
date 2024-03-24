@@ -130,7 +130,7 @@ MainMenu:
 InitOptions:
 	ld a, TEXT_DELAY_FAST
 	ld [wLetterPrintingDelayFlags], a
-    ld a, TEXT_DELAY_SLOW ; Set default text speed to fast ; TODO_OPTIONS
+    ld a, TEXT_DELAY_FAST ; Set default text speed to fast ; TODO_OPTIONS
     or %11000000 ; Set battle animation off (bit 7) and battle style to set (bit 6) ; TODO_OPTIONS
 	ld [wOptions], a
 	ret
@@ -690,8 +690,8 @@ SetCursorPositionsFromOptions:
 ; 00: X coordinate of menu cursor
 ; 01: delay after printing a letter (in frames)
 TextSpeedOptionData:
-	db 14, TEXT_DELAY_SLOW
-	db  7, TEXT_DELAY_MEDIUM
+	db 14, TEXT_DELAY_FAST
+	db  7, TEXT_DELAY_FAST
 	db  1, TEXT_DELAY_FAST
 	db  7, -1 ; end (default X coordinate)
 
